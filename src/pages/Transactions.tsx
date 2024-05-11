@@ -5,7 +5,6 @@ import { ICategory, IResponseTransactionLoader, ITransaction } from '../types/ty
 import { useLoaderData } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { TransactionTable } from '../components/TransactionTable.tsx'
-import { formatDate } from '../helper/date.helper.ts'
 import { formatToUSD } from '../helper/currency.helper.ts'
 import { Charts } from '../components/Charts.tsx'
 
